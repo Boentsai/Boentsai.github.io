@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <META NAME="Author" CONTENT="ARTER">
+  <meta charset="utf-8" />
+  <title>BO En Tsai's Web</title>
+  <!-- CSS 樣式 -->
+  <style type="text/css">
+
+  </style>
+
+  <!-- JavaScript -->
+  < link rel="icon" href="/favicon.ico" type="image/x-icon" / >
+</head>
+
+<body>
+
+<h1>Self Introduction</h1>
+<p>name : BO EN TSAI</p>
+<img src="test.jpg"alt="MY photo"
+width="300"
+height="300"
+title="BO EN TSAI">>
+<p>high school:師大附中<a href="https://www.hs.ntnu.edu.tw/">HSNU</a></p>
+<p>University:台灣大學<a href="https://www.ntu.edu.tw/">NTU</a></p>
+<h1>Hobbies</h1>
+<h2>1.MUSIC</h2>
+<P>I love to listen to music, and my favorite
+  singer is 周杰倫<a href="https://www.facebook.com/jay">Jay Chou</a>
+</P>
+<h2>2.BASKET BALL</h2>
+<p>I like to play basket ball when I am free，and I also watch the</p>
+<P>basket ball game of NBA</P>
+<p>MY favorite basket ball player is<a href="https://twitter.com/kingjames">Lebron James</a></p>
+<h2>3.Comic Book</h2>
+<p>When I am taking the MRT, or I am free,I always wahch</p>
+<p>comic books.I think comic book is very intersting,and I </p>
+<p> want to recommend a comic book:<a href="https://zh.wikipedia.org/wiki/MONSTER_(%E6%BC%AB%E7%95%AB)">Monster</a>,this comic</p>
+<p>book is really worth seeing.</p>
+
+<audio loop>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+</body>
+
+</html>
+$ git add index.html
+
+$ git commit -m "add index"
+[master (root-commit) 80450b2] add index
+ 1 file changed, 10 insertions(+)
+ create mode 100644 index.html
+  git remote add origin https://github.com/eddiekao/eddiekao.github.io.git
+
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 327 bytes | 327.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/eddiekao/eddiekao.github.io.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
